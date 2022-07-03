@@ -7,7 +7,6 @@ runs:
       with:
         repository: 'aws/aws-elastic-beanstalk-cli-setup'
         path: 'aws-elastic-beanstalk-cli-setup'
-        branch: 'master'
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
